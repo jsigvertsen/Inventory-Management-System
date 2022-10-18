@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sigvertsen.c482.controller.modifyProductController">
+    <center>
+        <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <VBox prefHeight="200.0" prefWidth="490.0">
+                    <children>
+                        <HBox prefHeight="50.0" prefWidth="485.0">
+                            <children>
+                                <Label text="Modify Product">
+                                    <font>
+                                        <Font name="Arial Bold" size="20.0" />
+                                    </font></Label>
+                            </children></HBox>
+                        <HBox prefHeight="540.0" prefWidth="485.0">
+                            <children>
+                                <VBox prefHeight="200.0" prefWidth="100.0">
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <children>
+                                            <Label text="Product ID">
+                                                <HBox.margin>
+                                                    <Insets />
+                                                </HBox.margin>
+                                            </Label>
+                                        </children>
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <children>
+                                            <Label text="Product Name">
+                                                <HBox.margin>
+                                                    <Insets />
+                                                </HBox.margin></Label>
+                                        </children>
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <children>
+                                            <Label text="Inventory">
+                                                <HBox.margin>
+                                                    <Insets />
+                                                </HBox.margin>
+                                            </Label>
+                                        </children>
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox />
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <children>
+                                            <Label text="Price">
+                                                <HBox.margin>
+                                                    <Insets />
+                                                </HBox.margin>
+                                            </Label>
+                                        </children>
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox />
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <children>
+                                            <Label text="Max">
+                                                <HBox.margin>
+                                                    <Insets />
+                                                </HBox.margin>
+                                            </Label>
+                                        </children>
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox />
+                                </VBox>
+                                <VBox prefHeight="255.0" prefWidth="120.0">
+                                    <children>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                            <padding>
+                                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                            </padding>
+                                            <children>
+                                                <TextField fx:id="modifyProduct_productID_field" disable="true" />
+                                            </children></HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                            <padding>
+                                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                            </padding>
+                                            <children>
+                                                <TextField fx:id="modifyProduct_productName_field" />
+                                            </children></HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                            <padding>
+                                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                            </padding>
+                                            <children>
+                                                <TextField fx:id="modifyProduct_inventory_field" />
+                                            </children></HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                            <padding>
+                                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                            </padding>
+                                            <children>
+                                                <TextField fx:id="modifyProduct_price_field" />
+                                            </children></HBox>
+                                        <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                            <padding>
+                                                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                            </padding>
+                                            <children>
+                                                <TextField fx:id="modifyProduct_max_field" />
+                                            </children></HBox>
+                                    </children></VBox>
+                                <VBox prefHeight="255.0" prefWidth="41.0">
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding>
+                                    </HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox />
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox />
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="286.0">
+                                        <children>
+                                            <Label text="Min">
+                                                <HBox.margin>
+                                                    <Insets />
+                                                </HBox.margin>
+                                            </Label>
+                                        </children>
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox />
+                                    <HBox.margin>
+                                        <Insets left="10.0" />
+                                    </HBox.margin>
+                                </VBox>
+                                <VBox prefHeight="200.0" prefWidth="120.0">
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding></HBox>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="200.0">
+                                        <padding>
+                                            <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                                        </padding>
+                                        <children>
+                                            <TextField fx:id="modifyProduct_min_field" />
+                                        </children></HBox>
+                                </VBox>
+                            </children>
+                        </HBox>
+                    </children></VBox>
+                <VBox prefHeight="200.0" prefWidth="490.0">
+                    <children>
+                  <HBox alignment="CENTER_RIGHT" prefHeight="5.0" prefWidth="485.0">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <children>
+                        <Label fx:id="modifyProduct_search_error_msg_lbl" />
+                     </children>
+                  </HBox>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="200.0">
+                            <children>
+                                <TextField fx:id="modifyProduct_searchbar" onAction="#onAction_modifyProduct_part_search" promptText="Search by Part ID or Name" />
+                            </children>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="485.0">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" />
+                            </padding>
+                            <children>
+                                <TableView fx:id="modifyProduct_top_tbl" prefHeight="80.0" prefWidth="476.0">
+                                    <columns>
+                                        <TableColumn fx:id="modifyProduct_top_partID_col" prefWidth="61.0" text="Part ID" />
+                                        <TableColumn fx:id="modifyProduct_top_partName_col" prefWidth="211.0" text="Part Name" />
+                                        <TableColumn fx:id="modifyProduct_top_inventory_col" prefWidth="73.0" text="Inventory" />
+                                        <TableColumn fx:id="modifyProduct_top_price_col" prefWidth="119.0" text="Price/Cost per Unit" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="32.0" prefWidth="485.0">
+                            <opaqueInsets>
+                                <Insets />
+                            </opaqueInsets>
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" />
+                            </padding>
+                            <children>
+                                <Button fx:id="modifyProduct_add_btn" mnemonicParsing="false" onAction="#onAction_part_add" text="Add" />
+                            </children>
+                        </HBox>
+                        <HBox prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <TableView fx:id="modifyProduct_bottom_tbl" prefHeight="90.0" prefWidth="506.0">
+                                    <columns>
+                                        <TableColumn fx:id="modifyProduct_bottom_partID_col" prefWidth="56.0" text="Part ID" />
+                                        <TableColumn fx:id="modifyProduct_bottom_partName_col" prefWidth="221.0" text="Part Name" />
+                                        <TableColumn fx:id="modifyProduct_bottom_inv_col" prefWidth="74.0" text="Inventory" />
+                                        <TableColumn fx:id="modifyProduct_bottom_price_col" prefWidth="113.0" text="Price/Cost per Unit" />
+                                    </columns>
+                                </TableView>
+                            </children>
+                            <padding>
+                                <Insets left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="485.0">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                            </padding>
+                            <children>
+                                <Button fx:id="modifyProduct_RAP_btn" mnemonicParsing="false" onAction="#onAction_RAP" text="Remove Associated Part" />
+                            </children>
+                        </HBox>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="23.0" prefWidth="485.0">
+                            <padding>
+                                <Insets bottom="10.0" left="10.0" right="10.0" />
+                            </padding>
+                            <children>
+                        <Label fx:id="modifyProduct_input_error_lbl">
+                           <HBox.margin>
+                              <Insets right="10.0" />
+                           </HBox.margin>
+                        </Label>
+                                <Button fx:id="modifyProduct_save_btn" mnemonicParsing="false" onAction="#onAction_save" text="Save">
+                                    <HBox.margin>
+                                        <Insets right="10.0" />
+                                    </HBox.margin>
+                                </Button>
+                                <Button fx:id="modifyProduct_cancel_btn" mnemonicParsing="false" onAction="#onAction_cancel" text="Cancel" />
+                            </children>
+                        </HBox>
+                    </children></VBox>
+            </children>
+            <padding>
+                <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+            </padding>
+        </HBox>
+    </center>
+</BorderPane>
